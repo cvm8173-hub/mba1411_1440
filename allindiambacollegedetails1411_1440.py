@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/a-c-patil-college-of-engineering-navi-mumbai-189845",
   "https://www.shiksha.com/college/eva-stalin-business-school-tambaram-sanatorium-chennai-32968",
   "https://www.shiksha.com/college/school-of-business-management-global-education-centre-ranga-reddy-48194",
-  "https://www.shiksha.com/university/andhra-university-vizianagaram-campus-51378",
-  "https://www.shiksha.com/college/brindavan-group-of-institutions-yelahanaka-bangalore-yelahanaka-54307",
-  "https://www.shiksha.com/college/vinayaka-college-of-it-and-business-management-kondapak-telangana-other-62251",
-  "https://www.shiksha.com/college/pooja-bhagavat-memorial-mahajana-education-centre-mysore-67275",
-  "https://www.shiksha.com/college/sage-university-indore-powered-by-seekho-212311",
-  "https://www.shiksha.com/university/dsvv-dev-sanskriti-vishwavidyalaya-haridwar-314",
-  "https://www.shiksha.com/college/gidc-rajju-shroff-rofel-institute-of-management-studies-grims-vapi-12989",
+  # "https://www.shiksha.com/university/andhra-university-vizianagaram-campus-51378",
+  # "https://www.shiksha.com/college/brindavan-group-of-institutions-yelahanaka-bangalore-yelahanaka-54307",
+  # "https://www.shiksha.com/college/vinayaka-college-of-it-and-business-management-kondapak-telangana-other-62251",
+  # "https://www.shiksha.com/college/pooja-bhagavat-memorial-mahajana-education-centre-mysore-67275",
+  # "https://www.shiksha.com/college/sage-university-indore-powered-by-seekho-212311",
+  # "https://www.shiksha.com/university/dsvv-dev-sanskriti-vishwavidyalaya-haridwar-314",
+  # "https://www.shiksha.com/college/gidc-rajju-shroff-rofel-institute-of-management-studies-grims-vapi-12989",
 ]
 
 
