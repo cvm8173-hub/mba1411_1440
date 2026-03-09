@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/mahatma-gandhi-university-tura-khanapara-campus-meghalaya-other-49040",
-  "https://www.shiksha.com/college/vivekananda-college-of-technology-and-management-aligarh-59063",
-  "https://www.shiksha.com/college/st-joseph-s-institute-of-technology-old-mahabalipuram-road-chennai-61315",
-  "https://www.shiksha.com/university/sido-kanhu-murmu-university-skmu-jharkhand-other-64763",
-  "https://www.shiksha.com/college/d-a-v-college-jalandhar-25378",
-  "https://www.shiksha.com/college/college-of-engineering-and-technology-bikaner-46868",
-  "https://www.shiksha.com/college/indira-gandhi-sahkari-prabandh-sansthan-lucknow-59907",
-  "https://www.shiksha.com/university/malwanchal-university-indore-67421",
-  "https://www.shiksha.com/university/medhavi-skills-university-sikkim-sikkim-other-203793",
-  "https://www.shiksha.com/university/swami-keshwanand-rajasthan-agricultural-university-skrau-rajasthan-other-4420",
-  "https://www.shiksha.com/college/pondicherry-engineering-college-pec-25083",
-  "https://www.shiksha.com/college/muzaffarpur-college-of-professional-education-231452",
-  "https://www.shiksha.com/college/bright-institute-of-management-telangana-other-62067",
-  "https://www.shiksha.com/university/major-sd-singh-university-farrukhabad-228087",
-  "https://www.shiksha.com/college/shri-hanuman-vyayam-prasarak-mandal-college-of-engineering-and-technology-amravati-21168",
-  "https://www.shiksha.com/college/sr-group-of-institution-jhansi-34538",
-  "https://www.shiksha.com/college/kkr-and-ksr-institute-of-technology-and-sciences-kits-guntur-46563",
-  "https://www.shiksha.com/college/h-k-e-society-s-sln-college-of-engineering-raichur-52567",
-  "https://www.shiksha.com/university/maulana-azad-university-jodhpur-65083",
-  "https://www.shiksha.com/college/mar-thoma-institute-of-information-technology-kollam-147049",
-  "https://www.shiksha.com/college/a-c-patil-college-of-engineering-navi-mumbai-189845",
-  "https://www.shiksha.com/college/eva-stalin-business-school-tambaram-sanatorium-chennai-32968",
-  "https://www.shiksha.com/college/school-of-business-management-global-education-centre-ranga-reddy-48194",
-  # "https://www.shiksha.com/university/andhra-university-vizianagaram-campus-51378",
-  # "https://www.shiksha.com/college/brindavan-group-of-institutions-yelahanaka-bangalore-yelahanaka-54307",
-  # "https://www.shiksha.com/college/vinayaka-college-of-it-and-business-management-kondapak-telangana-other-62251",
-  # "https://www.shiksha.com/college/pooja-bhagavat-memorial-mahajana-education-centre-mysore-67275",
-  # "https://www.shiksha.com/college/sage-university-indore-powered-by-seekho-212311",
-  # "https://www.shiksha.com/university/dsvv-dev-sanskriti-vishwavidyalaya-haridwar-314",
-  # "https://www.shiksha.com/college/gidc-rajju-shroff-rofel-institute-of-management-studies-grims-vapi-12989",
+  # "https://www.shiksha.com/university/mahatma-gandhi-university-tura-khanapara-campus-meghalaya-other-49040",
+  # "https://www.shiksha.com/college/vivekananda-college-of-technology-and-management-aligarh-59063",
+  # "https://www.shiksha.com/college/st-joseph-s-institute-of-technology-old-mahabalipuram-road-chennai-61315",
+  # "https://www.shiksha.com/university/sido-kanhu-murmu-university-skmu-jharkhand-other-64763",
+  # "https://www.shiksha.com/college/d-a-v-college-jalandhar-25378",
+  # "https://www.shiksha.com/college/college-of-engineering-and-technology-bikaner-46868",
+  # "https://www.shiksha.com/college/indira-gandhi-sahkari-prabandh-sansthan-lucknow-59907",
+  # "https://www.shiksha.com/university/malwanchal-university-indore-67421",
+  # "https://www.shiksha.com/university/medhavi-skills-university-sikkim-sikkim-other-203793",
+  # "https://www.shiksha.com/university/swami-keshwanand-rajasthan-agricultural-university-skrau-rajasthan-other-4420",
+  # "https://www.shiksha.com/college/pondicherry-engineering-college-pec-25083",
+  # "https://www.shiksha.com/college/muzaffarpur-college-of-professional-education-231452",
+  # "https://www.shiksha.com/college/bright-institute-of-management-telangana-other-62067",
+  # "https://www.shiksha.com/university/major-sd-singh-university-farrukhabad-228087",
+  # "https://www.shiksha.com/college/shri-hanuman-vyayam-prasarak-mandal-college-of-engineering-and-technology-amravati-21168",
+  # "https://www.shiksha.com/college/sr-group-of-institution-jhansi-34538",
+  # "https://www.shiksha.com/college/kkr-and-ksr-institute-of-technology-and-sciences-kits-guntur-46563",
+  # "https://www.shiksha.com/college/h-k-e-society-s-sln-college-of-engineering-raichur-52567",
+  # "https://www.shiksha.com/university/maulana-azad-university-jodhpur-65083",
+  # "https://www.shiksha.com/college/mar-thoma-institute-of-information-technology-kollam-147049",
+  # "https://www.shiksha.com/college/a-c-patil-college-of-engineering-navi-mumbai-189845",
+  # "https://www.shiksha.com/college/eva-stalin-business-school-tambaram-sanatorium-chennai-32968",
+  # "https://www.shiksha.com/college/school-of-business-management-global-education-centre-ranga-reddy-48194",
+  "https://www.shiksha.com/university/andhra-university-vizianagaram-campus-51378",
+  "https://www.shiksha.com/college/brindavan-group-of-institutions-yelahanaka-bangalore-yelahanaka-54307",
+  "https://www.shiksha.com/college/vinayaka-college-of-it-and-business-management-kondapak-telangana-other-62251",
+  "https://www.shiksha.com/college/pooja-bhagavat-memorial-mahajana-education-centre-mysore-67275",
+  "https://www.shiksha.com/college/sage-university-indore-powered-by-seekho-212311",
+  "https://www.shiksha.com/university/dsvv-dev-sanskriti-vishwavidyalaya-haridwar-314",
+  "https://www.shiksha.com/college/gidc-rajju-shroff-rofel-institute-of-management-studies-grims-vapi-12989",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1411
+    c_count =1434
 
     try:
         for base_url in BASE_URL:
